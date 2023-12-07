@@ -1,0 +1,195 @@
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body >
+<center>
+  <h3 class="btn btn-primary heading"> CASE STUDY BETWEEN GOOGLE LENS AND MOBILENET
+    <hr>
+    <center>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">
+      
+        <br>
+          <div class="btn heading_div2">
+          <img src="OIP.jpeg" alt=""><br> V/S <br> <img src="OIP (1).jpeg" alt="" >
+          </div>
+        </div>
+    </center>
+    <br>
+  </h3>
+  <br><br>
+
+</center>
+
+<ol>
+  <div class="test col-xs-12">
+    <li class="col-sm-4 col-xs-12">
+      <b>Test Image - </b>
+      <img src="glasses.jpeg" class="img-responsive">
+    </li>
+
+    <h5 class="col-sm-4 col-xs-12">
+      Output on <b>GOOGLE LENS</b>
+           <span>glasses</span>
+    </h5>
+
+
+    <h5 class="col-sm-4 col-xs-12">
+      Output on <b>Mobilenet model</b>
+           <span> glasses</span>
+    </h5>
+
+    <div class="mini_result" class="col-xs-12">
+      <h4>Result - </h4>
+      <hr>
+      <h4>Draw</h4>
+    </div>
+
+  </div>
+  <br>
+  
+
+
+  <div class="test col-xs-12">
+    <li class="col-sm-4 col-xs-12">
+      <b>Test Image - </b>
+      <img src="bottle.jpeg" class="img-responsive">
+    </li>
+
+    <h5 class="col-sm-4 col-xs-12">
+      Output on <b>GOOGLE LENS</b>
+           <span> Bottle</span>
+    </h5>
+
+
+    <h5 class="col-sm-4 col-xs-12">
+      Output on <b>Mobilenet model</b>
+           <span>Pipe</span>
+    </h5>
+
+    <div class="mini_result" class="col-xs-12">
+      <h4>Result -</h4>
+      <hr>
+      <h4>Google lense is more accurate</h4>
+    </div>
+
+  </div>
+<br>
+
+
+
+
+<div class="test col-xs-12">
+  <li class="col-sm-4 col-xs-12">
+    <b>Test Image - </b>
+    <img src="bed.jpeg" class="img-responsive">
+  </li>
+
+  <h5 class="col-sm-4 col-xs-12">
+    Output on <b>GOOGLE LENS</b>
+         <span> Bed, Pillow, blanket</span>
+  </h5>
+
+
+  <h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobilenet model</b>
+         <span> Bath tub/Bathing tub</span>
+  </h5>
+
+  <div class="mini_result" class="col-xs-12">
+    <h4>Result - </h4>
+    <hr>
+    <h4>Google lense is more accurate</h4>
+  </div>
+
+</div>
+<br>
+
+
+
+
+
+<div class="test col-xs-12">
+  <li class="col-sm-4 col-xs-12">
+    <b>Test Image - </b>
+    <img src="shoes.jpeg" class="img-responsive">
+  </li>
+
+  <h5 class="col-sm-4 col-xs-12">
+    Output on <b>GOOGLE LENS</b>
+         <span> Nike air forces 1 </span>
+  </h5>
+
+
+  <h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobilenet model</b>
+         <span> Shoes</span>
+  </h5>
+
+  <div class="mini_result" class="col-xs-12">
+    <h4>Result - </h4>
+    <hr>
+    <h4>Google lense is more accurate</h4>
+  </div>
+
+</div>
+<br>
+
+
+
+
+<div class="test col-xs-12">
+  <li class="col-sm-4 col-xs-12">
+    <b>Test Image - </b>
+    <img src="plushie.jpeg" class="img-responsive">
+  </li>
+
+  <h5 class="col-sm-4 col-xs-12">
+    Output on <b>GOOGLE LENS</b>
+         <span> Soft toy</span>
+  </h5>
+
+
+  <h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobilenet model</b>
+         <span> Ski mask</span>
+  </h5>
+
+  <div class="mini_result" class="col-xs-12">
+    <h4>Result - </h4>
+    <hr>
+    <h4>Google lense is more accurate</h4>
+  </div>
+
+</div>
+
+</ol>
+
+
+
+
+
+<div class="copy_right_footer">
+      Developed by -Sachit
+</div>
+
+<script src="main.js"></script>
+
+
+
+
+
+</body>
+
+</html>
+
+
